@@ -1,6 +1,4 @@
-require "ghibli_db/version"
+require 'pry'
+require 'httparty'
 
-module GhibliDb
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "ghibli_db/version"
