@@ -17,7 +17,7 @@ class API
       species = parse["species"]
       locations = parse["locations"]
       
-      Films.new(title, description, director, producer, release_date, rt_score, people, species, locations).title
+      Films.new(title, description, director, producer, release_date, rt_score, people, species, locations)
     end
   end
   

@@ -1,11 +1,12 @@
 class CLI
   
   def call
+    #call menu here
     puts "Would you like to view films?"
     puts "y/n"
     input = gets.strip
     if input.downcase == "y" || input.downcase == "yes"
-      return film_titles
+      film_titles
     elsif input.downcase == "n" || input.downcase == "no"
       puts "Have a nice day!"
     else
@@ -15,10 +16,13 @@ class CLI
   end
   
   def film_titles
-    puts API.fetch_films
+    #iterate through movie objects here
+    Films.all.each.with_index do |film, i|
+      
   end
   
-  def list_titles
+  def menu
+    #loop here
   end
   
 end
