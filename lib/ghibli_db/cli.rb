@@ -15,7 +15,7 @@ class CLI
   end
   
   def film_titles
-    API.fetch_films
+    puts API.fetch_films
   end
   
   def list_titles
