@@ -1,5 +1,5 @@
-class GhibliDb::Ghibli
-#create objects here
-
-
+class Ghibli
+  
+  attr_accessor :title, :description, :director
+  
 end
