@@ -1,6 +1,4 @@
 class API
-  #retrieve data here
-  attr_accessor :ghibli
   
   def fetch_films
     url = "https://ghibliapi.herokuapp.com/films"
