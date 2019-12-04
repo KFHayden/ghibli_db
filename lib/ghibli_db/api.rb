@@ -1,19 +1,15 @@
 class API
   #retrieve data here
+  attr_accessor :ghibli
   
   base_uri = "https://ghibliapi.herokuapp.com"
   
   def self.fetch_films
     url = "https://ghibliapi.herokuapp.com/films"
     response = HTTParty.get(url)
-    response.parsed_response.map do |film|
-      
+    response.parsed_response.each do |film|
       title = film["title"]
-      description = film["description"]
-      director = film["director"]
-
-    binding.pry
-    
+      binding.pry
     end
   end
   
