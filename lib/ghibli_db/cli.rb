@@ -50,7 +50,6 @@ class CLI
   def menu
     puts ""
     puts "Would you like to view films?"
-    puts ""
     puts "Please choose 'yes' or 'no'"
     input = gets.strip
     if input.downcase == "y" || input.downcase == "yes"
