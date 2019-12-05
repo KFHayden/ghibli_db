@@ -1,5 +1,3 @@
-![alt text](https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_gold.png" alt="Celebrate Studio Ghibli)
-
 # GhibliDb
 
 Welcome to the wonde)rful world of Ghibli! This CLI Gem is designed to show you, the user, all the films of Studio Ghibli as well as some additional information for films such as a short description, who the director and producer are, when the film was released, and what its Rotten Tomato score is!
