@@ -54,7 +54,7 @@ class CLI
     input = gets.strip
     if input.downcase == "y" || input.downcase == "yes"
       film_titles
-    elsif input.downcase == "n" || input.downcase == "no"
+    elsif input.downcase == "n" || input.downcase == "no" || input.downcase == "end"
       exit_program
     else
       puts "I'm sorry, I didn't get that."
