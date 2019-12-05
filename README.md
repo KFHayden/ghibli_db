@@ -21,10 +21,15 @@ Or install it yourself as:
 ## Usage
 
 1. Move to the correct directory by typing ‘cd ghibli_db’ into the terminal
+
 2. Run the program by typing ‘ruby bin/run’ into the terminal
+
 3. You can end the program at any time by typing “end”
+
 4. The program will welcome you, and ask if you would like to view the database’s films. Reply with “yes” or “y” to view the films, and “no” or “n”, to end the program
+
 5. If you opted to continue, you will be shown a list of films with corresponding numbers. Simply type a number 1-20 and you will be shown information about the selected film
+
 6. If you wish to view the list again, simply type “films”
 
 ## Development
