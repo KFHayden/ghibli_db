@@ -4,6 +4,8 @@ Welcome to the wonderful world of Ghibli! This CLI Gem is designed to show you, 
 
 ## Installation
 
+TODO: How to clone it
+
 Add this line to your application's Gemfile:
 
 ```ruby
