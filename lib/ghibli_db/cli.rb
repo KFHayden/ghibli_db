@@ -1,7 +1,6 @@
 class CLI
-  #todo: clean up menu & exit, create method for selecting a film to learn more about based on titles
+
   def call
-    #call menu here
     API.new.fetch_films
     puts "Welcome to the wonderful world of Ghibli!"
     menu
@@ -9,7 +8,6 @@ class CLI
   end
   
   def film_titles
-    #iterate through movie objects here
     Films.all.each.with_index do |film, i|
       puts "#{i+1}. #{film.title}"
     end
