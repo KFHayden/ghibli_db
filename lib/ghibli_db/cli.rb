@@ -4,7 +4,6 @@ class CLI
     API.new.fetch_films
     puts "Welcome to the wonderful world of Ghibli!"
     menu
-    
   end
   
   def film_titles
