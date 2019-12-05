@@ -37,7 +37,16 @@ class CLI
   end
   
   def film_info(input)
-    #pull info from index related to title here
+    ghibli = Films.all[input.to_i-1]
+      puts "Title: #{ghibli.title}"
+      puts "Description: #{ghibli.description}"
+      puts "Director: #{ghibli.director}"
+      puts "Producer: #{ghibli.producer}"
+      puts "Release Date: #{ghibli.release_date}"
+      puts "Rotten Tomato SCore: #{ghibli.rt_score}"
+      puts "People: #{ghibli.people}"
+      puts "Species: #{ghibli.species}"
+      puts "Locations: #{ghibli.locations}"
   end
   
   def menu
