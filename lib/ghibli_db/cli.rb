@@ -14,10 +14,18 @@ class CLI
       puts "#{i+1}. #{film.title}"
     end
     puts ""
-    puts "Which film would you like to know more about?"
+    puts "Please choose the number of the film you would like to know more about."
+    puts ""
+    puts "If you would like to end the program, simply type 'end'."
+    input = gets.strip.downcase
+    if input.to_i > 0
+        film_info(input)
+      elsif input == "end"
+        exit_program
+      end
   end
   
-  def film_info
+  def film_info(input)
     #pull info from index related to title here
   end
   

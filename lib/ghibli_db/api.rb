@@ -15,7 +15,7 @@ class API
       locations = film["locations"]
       
       Films.new(title, description, director, producer, release_date, rt_score, people, species, locations)
-binding.pry
+
     end
   end
   
