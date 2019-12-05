@@ -10,11 +10,8 @@ class API
       producer = film["producer"]
       release_date = film["release_date"]
       rt_score = film["rt_score"]
-      people = film["people"]
-      species = film["species"]
-      locations = film["locations"]
       
-      Films.new(title, description, director, producer, release_date, rt_score, people, species, locations)
+      Films.new(title, description, director, producer, release_date, rt_score)
 
     end
   end

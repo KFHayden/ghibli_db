@@ -44,9 +44,6 @@ class CLI
       puts "Producer: #{ghibli.producer}"
       puts "Release Date: #{ghibli.release_date}"
       puts "Rotten Tomato SCore: #{ghibli.rt_score}"
-      puts "People: #{ghibli.people}"
-      puts "Species: #{ghibli.species}"
-      puts "Locations: #{ghibli.locations}"
   end
   
   def menu
