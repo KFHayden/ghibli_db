@@ -44,9 +44,11 @@ class CLI
       puts "Producer: #{ghibli.producer}"
       puts "Release Date: #{ghibli.release_date}"
       puts "Rotten Tomato SCore: #{ghibli.rt_score}"
+      menu
   end
   
   def menu
+    puts ""
     puts "Would you like to view films?"
     puts ""
     puts "Please choose 'yes' or 'no'"
