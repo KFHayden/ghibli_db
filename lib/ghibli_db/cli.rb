@@ -1,5 +1,5 @@
 class CLI
-  
+  #todo: clean up menu & exit, create method for selecting a film to learn more about based on titles
   def call
     #call menu here
     API.new.fetch_films
