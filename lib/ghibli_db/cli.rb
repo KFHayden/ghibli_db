@@ -6,6 +6,21 @@ class CLI
     menu
   end
   
+  def menu
+    puts ""
+    puts "Would you like to view films?"
+    puts "Please choose 'yes' or 'no'"
+    input = gets.strip
+    if input.downcase == "y" || input.downcase == "yes"
+      film_titles
+    elsif input.downcase == "n" || input.downcase == "no" || input.downcase == "end"
+      exit_program
+    else
+      puts "I'm sorry, I didn't get that."
+      menu
+    end
+  end
+  
   def film_titles
     Films.all.each.with_index do |film, i|
       puts "#{i+1}. #{film.title}"
@@ -44,20 +59,7 @@ class CLI
       menu
   end
   
-  def menu
-    puts ""
-    puts "Would you like to view films?"
-    puts "Please choose 'yes' or 'no'"
-    input = gets.strip
-    if input.downcase == "y" || input.downcase == "yes"
-      film_titles
-    elsif input.downcase == "n" || input.downcase == "no" || input.downcase == "end"
-      exit_program
-    else
-      puts "I'm sorry, I didn't get that."
-      menu
-    end
-  end
+
   
   def exit_program
     puts "Have a nice day!"
