@@ -50,6 +50,7 @@ class CLI
   
   def film_info(input)
     ghibli = Films.all[input.to_i-1]
+      puts ""
       puts "Title: #{ghibli.title}"
       puts "Description: #{ghibli.description}"
       puts "Director: #{ghibli.director}"
@@ -58,8 +59,6 @@ class CLI
       puts "Rotten Tomato SCore: #{ghibli.rt_score}"
       menu
   end
-  
-
   
   def exit_program
     puts "Have a nice day!"
