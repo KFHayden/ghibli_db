@@ -38,7 +38,7 @@ class CLI
     puts ""
     puts "If you would like to end the program, simply type 'end'."
     input = gets.strip.downcase
-    if input.to_i > 0 && input.to_i < 21
+    if input.to_i > 0 && input.to_i <= Films.all.size
       film_info(input)
       elsif input == "end"
         exit_program
