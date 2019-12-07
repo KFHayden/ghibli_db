@@ -6,19 +6,19 @@ Welcome to the wonde)rful world of Ghibli! This CLI Gem is designed to show you,
 
 TODO: How to clone it
 
-Add this line to your application's Gemfile:
+1. Go to 'https://github.com/KFHayden/ghibli_db'
 
-```ruby
-gem 'ghibli_db'
-```
+2. Click the drop-down that says 'Clone and Download'
 
-And then execute:
+3. Clone with SSH, click the clipboard to the right to copy
 
-    $ bundle
+4. Open IRB sandbox
 
-Or install it yourself as:
+5. Delete all folders and files on the left hand side
 
-    $ gem install ghibli_db
+6. In the terminal, type 'git clone' and paste the clone link
+
+The program is almost ready to use!
 
 ## Usage
 
