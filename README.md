@@ -4,8 +4,6 @@ Welcome to the wonderful world of Ghibli! This CLI Gem is designed to show you, 
 
 ## Installation
 
-TODO: How to clone it
-
 1. Go to 'https://github.com/KFHayden/ghibli_db'
 
 2. Click the drop-down that says 'Clone and Download'
@@ -18,7 +16,7 @@ TODO: How to clone it
 
 6. In the terminal, type 'git clone' and paste the clone link
 
-The program is almost ready to use!
+The program is almost ready for you to use!
 
 ## Usage
 
