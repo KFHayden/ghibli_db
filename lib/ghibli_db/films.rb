@@ -1,5 +1,7 @@
 class Films
   
+#Uses extracted API data as parameters to create instances of Films
+#Stores said instances of films into an empty array to be called on by CLI class
   @@all = []
   
   attr_accessor :title, :description, :director, :producer, :release_date, :rt_score

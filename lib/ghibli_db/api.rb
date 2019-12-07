@@ -1,5 +1,6 @@
 class API
   
+#Extracts data from the Studio Ghibli API for the Films class to call on
   def fetch_films
     url = "https://ghibliapi.herokuapp.com/films"
     response = HTTParty.get(url)
